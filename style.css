@@ -1,5 +1,35 @@
 .cuadrado {
     height: 14vh;
-    width: 30vh;
+    width: 70vh;
     background-color: rgb(62, 163, 252);
+}
+.cuadrado-uno {
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    margin-top: 50vh;
+    margin-left: 50vh;
+    background-color:rgb(187, 102, 102)
+    
+}
+.cuadrado-dos {
+
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    margin-top: -40vh;
+    margin-left: 85vh;
+    background-color:rgb(155, 211, 243)
+}
+
+.cuadrado-tres {
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    margin-top: -40vh;
+    margin-left: 120vh;
+    background-color:rgb(155, 243, 174)
 }
