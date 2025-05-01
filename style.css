@@ -1,35 +1,112 @@
-.cuadrado {
-    height: 14vh;
-    width: 70vh;
-    background-color: rgb(62, 163, 252);
+body {
+  margin: 20px 0 0 0;  
+  padding: 0;
 }
+.cuadrado {
+  width: 40%;          
+  height: 25px; 
+  background-color: rgb(229, 231, 231);
+}
+.cuadrado-n {
+  height: 3.5vh;
+  width: 10vh;
+  background-color:rgb(243, 134, 107);
+  position: absolute;
+  left: 0px
+}
+.cuadrado-g {
+  height: 3.5vh;
+  width: 40vh;
+  background-color:rgb(211, 209, 209);
+  position: absolute;
+  left: 22%
+}
+.barra-superior {
+  width: 100%;         
+  height: 40px; 
+  display: flex;
+  background-color: rgb(229, 231, 231);
+  align-items: center;    
+  padding-left: 20px;
+}
+.cuadrado-unobs {
+  height: 3vh;
+  width: 3vh;
+  background-color:  rgb(191, 193, 194);
+  position: absolute;
+  left: 17px
+ 
+}
+.cuadrado-dosbs {
+  height: 3vh;
+  width: 3vh;
+  background-color:  rgb(191, 193, 194);
+  position: absolute;
+  left: 50px
+}
+.cuadrado-largo {
+  height: 3vh;
+  width: 87%;
+  background-color:  rgb(255, 255, 255);
+  position: absolute;
+  left: 100px
+}
+.cuadrado-tresbs {
+  height: 3vh;
+  width: 3vh;
+  background-color:  rgb(191, 193, 194);
+  position: absolute;
+  right: 17px
+ 
+}
+.cuadrado-cuatrobs {
+  height: 3vh;
+  width: 3vh;
+  background-color:  rgb(191, 193, 194);
+  position: absolute;
+  right: 50px
+}
+.cuadrado-naranja {
+  height: 9vh;
+  width: 70vh;
+  background-color: rgb(243, 134, 107);  
+  margin: 70px auto 0 auto;
+}
+.cuadrado-negro {
+  height: 9vh;
+  width: 10vh;
+  background-color: rgb(57, 56, 77);  
+  margin-top: 10px;
+  left: 80px;
+}
+
 .cuadrado-uno {
-    height: 40vh;
-    width: 30vh;
-    display: flex;
-    align-items: center;
-    margin-top: 50vh;
-    margin-left: 50vh;
-    background-color:rgb(187, 102, 102)
-    
+  height: 40vh;
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  margin-top: 50vh;
+  margin-left: 50vh;
+  background-color:rgb(243, 134, 107)
+  
 }
 .cuadrado-dos {
 
-    height: 40vh;
-    width: 30vh;
-    display: flex;
-    align-items: center;
-    margin-top: -40vh;
-    margin-left: 85vh;
-    background-color:rgb(155, 211, 243)
+  height: 40vh;
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  margin-top: -40vh;
+  margin-left: 85vh;
+  background-color:rgb(165, 241, 247)
 }
 
 .cuadrado-tres {
-    height: 40vh;
-    width: 30vh;
-    display: flex;
-    align-items: center;
-    margin-top: -40vh;
-    margin-left: 120vh;
-    background-color:rgb(155, 243, 174)
+  height: 40vh;
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  margin-top: -40vh;
+  margin-left: 120vh;
+  background-color:rgb(241, 185, 112)
 }
