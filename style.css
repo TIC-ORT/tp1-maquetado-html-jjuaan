@@ -2,6 +2,7 @@ body {
   margin: 20px 0 0 0;  
   padding: 0;
 }
+
 .cuadrado {
   width: 40%;          
   height: 25px; 
@@ -67,17 +68,30 @@ body {
   right: 50px
 }
 .cuadrado-naranja {
-  height: 9vh;
+  height: 10vh;
   width: 70vh;
   background-color: rgb(243, 134, 107);  
-  margin: 70px auto 0 auto;
+  position:absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-55%);
+}
+.cuadrado-blanco {
+  height: 3vh;
+  width: 70%;
+  background-color:  rgb(255, 255, 255);
+  position: absolute;
+  top: 50%; 
+  left: 40%; 
+  transform: translate(-50%, -50%);
 }
 .cuadrado-negro {
-  height: 9vh;
+  height: 10vh;
   width: 10vh;
   background-color: rgb(57, 56, 77);  
-  margin-top: 10px;
-  left: 80px;
+  position: absolute;
+  top: 150px;
+  left: calc(45% + 35vh);
 }
 
 .cuadrado-uno {
