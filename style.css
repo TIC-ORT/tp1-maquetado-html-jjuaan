@@ -141,7 +141,7 @@ left: 10%;
         background-color: rgb(194, 239, 250);
        position: absolute;
         align-items: center; 
-        top: 450px;  
+        top: 400px;  
       }
       .cuadrado-azul {
         height: 35vh;
@@ -239,7 +239,7 @@ left: 10%;
   width: 27vh;
   background-color:  rgb(190, 105, 84);
   position: absolute;
-  top: 121vh;
+  top: 123vh;
   left: 18%;
 }
 .cuadrado-uno-blanco1{
