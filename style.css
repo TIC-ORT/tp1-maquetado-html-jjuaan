@@ -2,7 +2,13 @@ body {
   margin: 20px 0 0 0;  
   padding: 0;
 }
-
+.espacio-celeste {
+  height: 70px;   
+  width: 100%;         /* El alto del espacio celeste */
+  background-color: rgb(165, 241, 247);
+  position: relative;  /* Se cambia a relative para que z-index funcione */
+  top: -50px;
+  z-index: -1;}
 .cuadrado {
   width: 40%;          
   height: 25px; 
@@ -27,8 +33,10 @@ body {
   height: 40px; 
   display: flex;
   background-color: rgb(229, 231, 231);
-  align-items: center;    
-  padding-left: 20px;
+ position: absolute;
+  align-items: center; 
+  top: 45px;  
+  left: 0px;
 }
 .cuadrado-unobs {
   height: 3vh;
@@ -93,7 +101,38 @@ body {
   top: 150px;
   left: calc(45% + 35vh);
 }
-
+.cuadrado-gris1{
+height:3vh;
+width:30vh;
+background-color: rgb(172, 172, 172);  
+position: absolute;
+top:300px;
+left: 10%;
+}
+.cuadrado-gris2{
+  height:3vh;
+  width:30vh;
+  background-color: rgb(172, 172, 172);  
+  position: absolute;
+  top:300px;
+  left: 30%;
+  }
+  .cuadrado-gris3{
+    height:3vh;
+    width:30vh;
+    background-color: rgb(172, 172, 172);  
+    position: absolute;
+    top:300px;
+    left: 50%;
+    }
+    .cuadrado-gris4{
+      height:3vh;
+      width:30vh;
+      background-color: rgb(172, 172, 172);  
+      position: absolute;
+      top:300px;
+      left: 70%;
+      }
 .cuadrado-uno {
   height: 40vh;
   width: 30vh;
