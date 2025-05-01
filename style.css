@@ -234,6 +234,40 @@ left: 10%;
   background-color:rgb(243, 134, 107)
   
 }
+.cuadrado-uno-rojo{
+  height: 4vh;
+  width: 27vh;
+  background-color:  rgb(190, 105, 84);
+  position: absolute;
+  top: 121vh;
+  left: 18%;
+}
+.cuadrado-uno-blanco1{
+  height: 2vh;
+  width: 27vh;
+  background-color:  rgb(255, 255, 255);
+  position: absolute;
+  top: 131vh;
+  left: 18%;
+}
+
+.cuadrado-uno-blanco2{
+  height: 2vh;
+  width: 27vh;
+  background-color:  rgb(255, 255, 255);
+  position: absolute;
+  top: 137vh;
+  left: 18%;
+}
+
+.cuadrado-uno-blanco3{
+  height: 2vh;
+  width: 22vh;
+  background-color:  rgb(255, 255, 255);
+  position: absolute;
+  top: 144vh;
+  left: 18%;
+}
 .cuadrado-dos {
 
   height: 40vh;
