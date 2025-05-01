@@ -4,9 +4,9 @@ body {
 }
 .espacio-celeste {
   height: 70px;   
-  width: 100%;         /* El alto del espacio celeste */
+  width: 100%;        
   background-color: rgb(165, 241, 247);
-  position: relative;  /* Se cambia a relative para que z-index funcione */
+  position: relative;  
   top: -50px;
   z-index: -1;}
 .cuadrado {
@@ -133,33 +133,61 @@ left: 10%;
       top:300px;
       left: 70%;
       }
+      .fondo-mitad {
+        width: 100%;         
+        height: 350px; 
+        display: flex;
+        background-color: rgb(212, 250, 253);
+       position: absolute;
+        align-items: center; 
+        top: 450px;  
+      }
+      .cuadrado-azul {
+        height: 35vh;
+        width: 35vh;
+        background-color:  rgb(165, 241, 247);
+        position: absolute;
+        left: 20vh
+       
+      }
+    
+    .cuadrado-azul-gris {
+      height: 4vh;
+      width: 4vh;
+      background-color:  rgb(215, 240, 253);
+      position: absolute;
+      top: 30px;
+      left: 30px
+     
+    }
+
 .cuadrado-uno {
   height: 40vh;
-  width: 30vh;
+  width: 40vh;
   display: flex;
   align-items: center;
-  margin-top: 50vh;
-  margin-left: 50vh;
+  margin-top: 100vh;
+  margin-left: 30vh;
   background-color:rgb(243, 134, 107)
   
 }
 .cuadrado-dos {
 
   height: 40vh;
-  width: 30vh;
+  width: 40vh;
   display: flex;
   align-items: center;
   margin-top: -40vh;
-  margin-left: 85vh;
+  margin-left: 80vh;
   background-color:rgb(165, 241, 247)
 }
 
 .cuadrado-tres {
   height: 40vh;
-  width: 30vh;
+  width: 40vh;
   display: flex;
   align-items: center;
   margin-top: -40vh;
-  margin-left: 120vh;
+  margin-left: 130vh;
   background-color:rgb(241, 185, 112)
 }
