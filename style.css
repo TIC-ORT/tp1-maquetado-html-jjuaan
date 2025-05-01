@@ -1,6 +1,6 @@
 body {
   margin: 20px 0 0 0;  
-  padding: 0;
+  padding: 30;
  
 }
 .espacio-celeste {
@@ -287,4 +287,82 @@ left: 10%;
   margin-top: -40vh;
   margin-left: 130vh;
   background-color:rgb(241, 185, 112)
+}
+.cuadrado-negro-bottom{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(81, 80, 107);
+  position: absolute;
+  top: 160vh;
+  left: 30vh;
+}
+.cuadrado-negro-bottom2{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(81, 80, 107);
+  position: absolute;
+  top: 160vh;
+  left: 80vh;
+}
+.cuadrado-negro-bottom3{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(81, 80, 107);
+  position: absolute;
+  top: 160vh;
+  left: 130vh;
+}
+
+.cuadrado-gris1-bottom{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 165vh;
+  left: 30vh;
+}
+
+.cuadrado-gris1-bottom2{
+  height: 2vh;
+  width: 30vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 170vh;
+  left: 30vh;
+}
+
+.cuadrado-gris2-bottom{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 165vh;
+  left: 80vh;
+}
+
+.cuadrado-gris2-bottom2{
+  height: 2vh;
+  width: 30vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 170vh;
+  left: 80vh;
+}
+
+.cuadrado-gris3-bottom{
+  height: 2vh;
+  width: 40vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 165vh;
+  left: 130vh;
+}
+
+.cuadrado-gris3-bottom2{
+  height: 2vh;
+  width: 30vh;
+  background-color:  rgb(172, 172, 172);
+  position: absolute;
+  top: 170vh;
+  left: 130vh;
 }
